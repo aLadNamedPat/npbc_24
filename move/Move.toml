@@ -1,0 +1,12 @@
+[package]
+name = 'my_app'
+version = '1.0.0'
+
+[addresses]
+module_addr ='7ace233db888c0a18caecd373b9ad5ffeb2a55901dee7a728e21da0b4b500d7a'
+my_addr='0x4fc3338dd407a69a518aac33eb2a28129cbea7903963fa6e463d3439a34df42b'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
